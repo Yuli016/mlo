@@ -7,14 +7,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"/>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./js/button.js">
+    <script src="js/mlo.js" defer></script>
   </head>
   <body>
 
@@ -34,48 +37,134 @@
   <div class="center-div">
     <h1 id="center-text">Communication Design Major Learning Outcomes</h1><br><br>
 
-    <div class="buttons">
-      <button class="mlobutton" onclick="toggleVisibility('mlo1');">MLO1</button>
-      <button class="mlobutton" onclick="toggleVisibility('mlo2');">MLO2</button>
-      <button class="mlobutton" onclick="toggleVisibility('mlo3');">MLO3</button>
-      <button class="mlobutton" onclick="toggleVisibility('mlo4');">MLO4</button>
-      <button class="mlobutton" onclick="toggleVisibility('mlo5');">MLO5</button>
-    </div><br><br>
-
-    <div id="mlo1"><!--mlo1 Div Start -->
-      <p id="mlo1">Demonstrate the ability to understand, analyze, and evaluate information,
-      ideas, and insights from multiple perspectives through written, oral, visual,
-      and electronic means of communication, and explain its significance at an
-      advanced collegiate level. More specifically, graduates should be able to:</p>
+    <div class='btn-holder'>
+      <button class="btn btn-3 hover-border-2" onclick="toggleVisibility('mlo1');">
+        <span>MLO1</span>
+      </button>
+      <button class="btn btn-3 hover-border-2" onclick="toggleVisibility('mlo2');">
+        <span>MLO2</span>
+      </button>
+      <button class="btn btn-3 hover-border-2" onclick="toggleVisibility('mlo3');">
+        <span>MLO3</span>
+      </button>
+      <button class="btn btn-3 hover-border-2" onclick="toggleVisibility('mlo4');">
+        <span>MLO4</span>
+      </button>
+      <button class="btn btn-3 hover-border-2" onclick="toggleVisibility('mlo5');">
+        <span>MLO5</span>
+      </button>
     </div>
 
-    <div id="mlo2"><!--mlo1 Div Start -->
+    <div id="mlo1"><!--beginner Div Start -->
+      <h2 id="center-text">MLO 1: Professional Communication</h2><br>
       <p>Demonstrate the ability to understand, analyze, and evaluate information,
       ideas, and insights from multiple perspectives through written, oral, visual,
       and electronic means of communication, and explain its significance at an
       advanced collegiate level. More specifically, graduates should be able to:</p>
+        <p>1.  Receive information, ideas, and arguments through active listening and effective reading skills;</p>
+        <p>2.  Communicate effectively with a range of audiences through college level writing;</p>
+        <p>3.  Communicate effectively with a range of audiences through well-organized, precise, and effective oral presentations.</p>
+        <br><hr><br>
+
+        <h2 id="org">CST 300 - Major Pro Seminar</h2>
+        <p></p><br>
+
+        <br><hr><br>
+
+
     </div>
 
-    <div id="mlo3"><!--mlo1 Div Start -->
+    <div id="mlo2"><!--beginner Div Start -->
+      <h2 id="center-text">MLO 2: User-centered Design </h2><br>
+      <p>Demonstrate the systematic application of design principles, tools, user-centered
+      design methodology and processes to develop complex systems that facilitate meaningful
+      interactions. More specifically, graduates should be able to:</p><br>
+
+        <p>1.  Apply knowledge of design history, communication theories, and aesthetic principles to solve design problems;</p>
+        <p>2.  Analyze a problem and identify, define, and implement appropriate solutions;</p>
+        <p>3.  Design, implement, and evaluate effectiveness and efficiency of a design project to meet desired needs.</p>
+        <br><hr><br>
+
+        <h2 id="org">CST 330 - Media Tools 2</h2>
+        <p>Developing motion graphic skills while implementing digital design skill creating motion graphics
+        field for projects such for commercials, film titles, network branding, video game cinematics, web banners,
+        user experience and interactive motion graphics.  Developing pre-production to plan projects such
+        as scripting lines, mood boards, style frames, and using Photoshop, Illustrator, Animate, Premiere,
+        and After Effects and work in a team to model client and designer interaction.</p><br>
+
+        <div class="video-container">
+          <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/oripHWYZUYU"></iframe>
+        </div>
+
+        <br><hr><br>
+
+        <h2 id="org">CST 201 - Media Tools 1</h2>
+        <p>Learning the foundation of basic design principles and industry standards software applications such as
+        photoshop, illustrator, and indesign to design 2D raster and vector graphics.  Also emulating a real
+        life design and management interaction to develop media projects while maintaining an organized file structure.</p><br>
+
+    </div>
+
+    <div id="mlo3"><!--beginner Div Start -->
+      <h2 id="center-text">MLO 3: Computing and Programming</h2><br>
       <p>Demonstrate the ability to understand, analyze, and evaluate information,
       ideas, and insights from multiple perspectives through written, oral, visual,
       and electronic means of communication, and explain its significance at an
-      advanced collegiate level. More specifically, graduates should be able to:</p>
+      advanced collegiate level. More specifically, graduates should be able to:</p><br>
+
+      <p>1.  Identify right tools and programming solutions to address design problems;</p>
+      <p>2.  Design, develop, implement, and evaluate a technology infused design project to meet desired needs.</p>
+      <br><hr><br>
+
+      <h2 id="org">CST 251 - Web Tools</h2>
+      <p>Develop basic HTML, web design tools, Cascading Style Sheets (CSS) to style HTML
+      pages and browser compatibility, maintaining proper file structure, knowing how to use
+      CSS libraries such as Bootstrap and applying design principles of information
+      architecture, color, layout, and type.</p><br>
+      <img class="slide" src="./img/webtool.jpg">
+
+      <br><hr><br>
+
+      <h2 id="org">CST 252 - Scripting for Multimedia</h2>
+      <p>Learning how to read and write advance HTML5 and other related technologies
+      such as HTML, CSS3 (open source frameworks), JavaScript (variables, arrays, objects,
+      funcation, control structures) and jQuery (update content and style of web page) to be
+      able to code dynamic multimedia content.  Fundamental concept of web programming plus
+      design, coding, testing, debugging and documentation of computer programming.</p><br>
+      <img src="./img/cst252.jpg">
+
+      <br><hr><br>
+
+      <h2 id="org">CST 236 - Computing for Designers</h2>
+      <p>Fundamentals of how computers work in digital media for commercial entertainment
+      and fine art.  Also understanding the hardware components, operating principles, software
+      basics, memory management, storage, programming basics for vector and bitmap
+      functions, compression schemes and basic scripting.</p>
+
     </div>
 
-    <div id="mlo4"><!--mlo1 Div Start -->
-      <p>Demonstrate the ability to understand, analyze, and evaluate information,
-      ideas, and insights from multiple perspectives through written, oral, visual,
-      and electronic means of communication, and explain its significance at an
-      advanced collegiate level. More specifically, graduates should be able to:</p>
+    <div id="mlo4"><!--beginner Div Start -->
+      <h2 id="center-text">MLO 4: Professional Ethos</h2><br>
+      <p>Demonstrate professionalism through team work, punctuality, integrity, reliability,
+      and commitment to ethical action through rigorous evaluation from multiple perspectives.
+      More specifically, graduates should be able to:</p>
+      <ol type="1">
+        <li>Function effectively on teams with diverse individuals from diverse backgrounds to accomplish a common goal;</li>
+        <li>Analyze the local and global impact of computing and design on individuals, organizations, community, society, and the world;</li>
+        <li>Understand and apply professional, ethical, legal, security, and social responsibilities in the service of community, society, and world.</li>
+      </ol>
     </div>
 
-    <div id="mlo5"><!--mlo1 Div Start -->
-      <p>Demonstrate the ability to understand, analyze, and evaluate information,
-      ideas, and insights from multiple perspectives through written, oral, visual,
-      and electronic means of communication, and explain its significance at an
-      advanced collegiate level. More specifically, graduates should be able to:</p>
+    <div id="mlo5"><!--beginner Div Start -->
+      <h2 id="center-text">MLO 5: Application and Synthesis</h2><br>
+      <p>Apply core communication design knowledge, theories, methods, and practices
+      to address new and complex real-world challenges and opportunities. More
+      specifically, graduates should be able to:</p>
+      <ol type="1">
+        <li>Apply design and development principles, tools, and methods in communication design in the construction of design of varying complexity in a way that demonstrates comprehension of the tradeoffs involved in design choices.</li>
+      </ol>
     </div>
+
   </div>
 
   </body>

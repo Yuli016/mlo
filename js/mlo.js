@@ -1,8 +1,27 @@
+var divs = ["mlo1", "mlo2", "mlo3", "mlo4", "mlo5"];
+var visibleDivId = null;
 
-jQuery(function(){
+function toggleVisibility(divId) {
+  if(visibleDivId === divId) {
+    //visibleDivId = null;
+  } else {
+      visibleDivId = divId;
+    }
+    hideNonVisibleDivs();
+}
 
-        jQuery('.showSingle').click(function(){
-              jQuery('.targetDiv').hide();
-              jQuery('#div'+jQuery(this).attr('target')).show();
-        });
-});
+function hideNonVisibleDivs() {
+  var i, divId, div;
+  for(i = 0; i < divs.length; i++) {
+    divId = divs[i];
+    div = document.getElementById(divId);
+
+    if(visibleDivId === divId) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+}
+
+w3.slideshow(".slide", 7000);

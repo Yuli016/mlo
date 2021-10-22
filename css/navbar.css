@@ -1,18 +1,66 @@
-html {
+html,body {
   overflow-x: hidden;
   width: 100%;
   height: auto;
   margin: 0;
+  background-color: rgba(232, 223, 209, 1);
+  color: black;
+}
+
+.navbar-default {
+    background-color: rgb(54, 56, 55);
+    border-color: rgb(28, 31, 30);
+}
+
+.navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #ff7f50;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ff7f50;
+}
+
+#org {
+  color: #ff7f50;
 }
 
 .center-div {
   padding: 2vh 8vw;
 }
 
-#me {
-  float: right;
-  width: 100%;
-  height: auto;
+.padding {
+  padding: 10px;
+}
+
+img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+#smaller {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #center-text {
@@ -27,4 +75,48 @@ h1,h2,h3,h4,h5,h6 {
 
 p,li {
   font-family: 'Poppins', sans-serif;
+}
+
+p,li {
+  line-height: 150%;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 601px) {
+  p,li {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  p,li {
+    font-size: 28px;
+  }
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+/* videos settings */
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 20px;
 }
