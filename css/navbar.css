@@ -1,0 +1,30 @@
+html {
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.center-div {
+  padding: 2vh 8vw;
+}
+
+#me {
+  float: right;
+  width: 100%;
+  height: auto;
+}
+
+#center-text {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+p,li {
+  font-family: 'Poppins', sans-serif;
+}
