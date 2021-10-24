@@ -12,31 +12,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/button.css">
     <script src="js/mlo.js" defer></script>
   </head>
   <body>
 
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Yulitsa's ILP</a>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" href="index.html">Yulitsa's ILP</a></li>
+          <li><a class="navbar-brand" href="cdmlo.html">CD MLO's</a></li>
+        </ul>
       </div>
-      <ul class="nav navbar-nav">
-        <li><a href="#">Capstone</a></li>
-        <li><a href="cdmlo.html">CD MLO's</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-    </div>
-  </nav>
+    </nav>
 
   <div class="center-div">
-    <h1 id="center-text">Communication Design Major Learning Outcomes</h1><br><br>
-
     <div class='btn-holder'>
       <button class="btn btn-3 hover-border-2" onclick="toggleVisibility('mlo1');">
         <span>MLO1</span>
@@ -56,7 +49,7 @@
     </div>
 
     <div id="mlo1"><!--beginner Div Start -->
-      <h2 id="center-text">MLO 1: Professional Communication</h2><br>
+      <h1 class="sample-heading explanation">MLO 1: Professional Communication</h1><br>
       <p>Demonstrate the ability to understand, analyze, and evaluate information,
       ideas, and insights from multiple perspectives through written, oral, visual,
       and electronic means of communication, and explain its significance at an
@@ -75,7 +68,7 @@
     </div>
 
     <div id="mlo2"><!--beginner Div Start -->
-      <h2 id="center-text">MLO 2: User-centered Design </h2><br>
+      <h1 class="sample-heading explanation">MLO 2: User-centered Design </h1><br>
       <p>Demonstrate the systematic application of design principles, tools, user-centered
       design methodology and processes to develop complex systems that facilitate meaningful
       interactions. More specifically, graduates should be able to:</p><br>
@@ -92,10 +85,6 @@
         as scripting lines, mood boards, style frames, and using Photoshop, Illustrator, Animate, Premiere,
         and After Effects and work in a team to model client and designer interaction.</p><br>
 
-        <div class="video-container">
-          <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/oripHWYZUYU"></iframe>
-        </div>
-
         <br><hr><br>
 
         <h2 id="org">CST 201 - Media Tools 1</h2>
@@ -106,7 +95,7 @@
     </div>
 
     <div id="mlo3"><!--beginner Div Start -->
-      <h2 id="center-text">MLO 3: Computing and Programming</h2><br>
+      <h1 class="sample-heading explanation">MLO 3: Computing and Programming</h1><br>
       <p>Demonstrate the ability to understand, analyze, and evaluate information,
       ideas, and insights from multiple perspectives through written, oral, visual,
       and electronic means of communication, and explain its significance at an
@@ -114,16 +103,36 @@
 
       <p>1.  Identify right tools and programming solutions to address design problems;</p>
       <p>2.  Design, develop, implement, and evaluate a technology infused design project to meet desired needs.</p>
-      <br><hr><br>
+      <br><hr>
 
       <h2 id="org">CST 251 - Web Tools</h2>
       <p>Develop basic HTML, web design tools, Cascading Style Sheets (CSS) to style HTML
       pages and browser compatibility, maintaining proper file structure, knowing how to use
       CSS libraries such as Bootstrap and applying design principles of information
       architecture, color, layout, and type.</p><br>
-      <img class="slide" src="./img/webtool.jpg">
 
-      <br><hr><br>
+      <div class="slideshow-container">
+        <div class="mySlides3-1">
+          <img src="./img/2511.jpg" style="width:100%">
+        </div>
+        <div class="mySlides3-1">
+          <img src="./img/2512.jpg" style="width:100%">
+        </div>
+        <div class="mySlides3-1">
+          <img src="./img/2513.jpg" style="width:100%">
+        </div>
+        <div class="mySlides3-1">
+          <img src="./img/2514.jpg" style="width:100%">
+        </div>
+        <div class="mySlides3-1">
+          <img src="./img/2515.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+
+      <br><hr>
 
       <h2 id="org">CST 252 - Scripting for Multimedia</h2>
       <p>Learning how to read and write advance HTML5 and other related technologies
@@ -131,38 +140,77 @@
       funcation, control structures) and jQuery (update content and style of web page) to be
       able to code dynamic multimedia content.  Fundamental concept of web programming plus
       design, coding, testing, debugging and documentation of computer programming.</p><br>
-      <img src="./img/cst252.jpg">
 
-      <br><hr><br>
+      <div class="slideshow-container">
+        <div class="mySlides3-2">
+          <img src="./img/2521.jpg">
+        </div>
+        <div class="mySlides3-2">
+          <img src="./img/2522.jpg">
+        </div>
+        <div class="mySlides3-2">
+          <img src="./img/2523.jpg">
+        </div>
+        <div class="mySlides3-2">
+          <img src="./img/2524.jpg">
+        </div>
+        <div class="mySlides3-2">
+          <img src="./img/2525.jpg">
+        </div>
+        <div class="mySlides3-2">
+          <img src="./img/2526.jpg">
+        </div>
+        <div class="mySlides3-2">
+          <img src="./img/2527.jpg">
+        </div>
 
-      <h2 id="org">CST 236 - Computing for Designers</h2>
-      <p>Fundamentals of how computers work in digital media for commercial entertainment
-      and fine art.  Also understanding the hardware components, operating principles, software
-      basics, memory management, storage, programming basics for vector and bitmap
-      functions, compression schemes and basic scripting.</p>
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+      </div>
+
+      <br><hr>
+
+      <h2 id="org">CST 352 - Web Scripting</h2>
+      <p>This course is designed to provide students with dynamic web application development
+      skills, focusing on the PHP, MySQL, JavaScript, and jQuery. Coverage includes the Internet
+      architecture, HTML, CSS, programming with PHP, database and MySQL, and client-side programming with JavaScript.</p><br>
+      <p>Taking in Spring 2023</p>
+
+      <div class="slideshow-container">
+        <div class="mySlides3-3">
+          <img src="./img/blank.jpg">
+        </div>
+        <div class="mySlides3-3">
+          <img src="./img/blank.jpg">
+        </div>
+        <div class="mySlides3-3">
+          <img src="./img/blank.jpg">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+      </div>
 
     </div>
 
-    <div id="mlo4"><!--beginner Div Start -->
-      <h2 id="center-text">MLO 4: Professional Ethos</h2><br>
+    <div id="mlo4">
+      <h1 class="sample-heading explanation">MLO 4: Professional Ethos</h1><br>
       <p>Demonstrate professionalism through team work, punctuality, integrity, reliability,
       and commitment to ethical action through rigorous evaluation from multiple perspectives.
-      More specifically, graduates should be able to:</p>
-      <ol type="1">
-        <li>Function effectively on teams with diverse individuals from diverse backgrounds to accomplish a common goal;</li>
-        <li>Analyze the local and global impact of computing and design on individuals, organizations, community, society, and the world;</li>
-        <li>Understand and apply professional, ethical, legal, security, and social responsibilities in the service of community, society, and world.</li>
-      </ol>
+      More specifically, graduates should be able to:</p><br>
+      <p>1.  Function effectively on teams with diverse individuals from diverse backgrounds to accomplish a common goal;</p>
+      <p>2.  Analyze the local and global impact of computing and design on individuals, organizations, community, society, and the world;</p>
+      <p>3.  Understand and apply professional, ethical, legal, security, and social responsibilities in the service of community, society, and world.</p>
     </div>
 
-    <div id="mlo5"><!--beginner Div Start -->
-      <h2 id="center-text">MLO 5: Application and Synthesis</h2><br>
+    <div id="mlo5">
+      <h1 class="sample-heading explanation">MLO 5: Application and Synthesis</h1><br>
       <p>Apply core communication design knowledge, theories, methods, and practices
       to address new and complex real-world challenges and opportunities. More
-      specifically, graduates should be able to:</p>
-      <ol type="1">
-        <li>Apply design and development principles, tools, and methods in communication design in the construction of design of varying complexity in a way that demonstrates comprehension of the tradeoffs involved in design choices.</li>
-      </ol>
+      specifically, graduates should be able to:</p><br>
+      <p>1.  Apply design and development principles, tools, and methods in communication
+      design in the construction of design of varying complexity in a way that demonstrates
+      comprehension of the tradeoffs involved in design choices.</p>
     </div>
 
   </div>
