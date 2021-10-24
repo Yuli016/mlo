@@ -88,10 +88,10 @@ p,li {
 }
 
 hr {
-  height: 2px;
+  height: 4px;
   border-width: 0;
-  color: gray;
-  background-color: gray;
+  color: #333333;
+  background-color: #333333;
 }
 
 /* videos settings */
