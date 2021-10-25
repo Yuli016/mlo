@@ -33,7 +33,7 @@ html,body {
 }
 
 .center-div {
-  padding: 2vh 8vw;
+  padding: 1vh 3vw;
   overflow-y: hidden;
 }
 
@@ -79,11 +79,17 @@ p,li {
   p,li {
     font-size: 25px;
   }
+  .center-div {
+    padding: 2vh 8vw;
+  }
 }
 
 @media screen and (min-width: 2000px) {
   p,li {
     font-size: 28px;
+  }
+  .center-div {
+    padding: 2vh 8vw;
   }
 }
 
