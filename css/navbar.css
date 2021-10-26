@@ -37,6 +37,10 @@ html,body {
   overflow-y: hidden;
 }
 
+.prev, .next {
+  padding: 8px;
+}
+
 .padding {
   padding: 10px;
 }
@@ -82,6 +86,9 @@ p,li {
   .center-div {
     padding: 2vh 8vw;
   }
+  .prev, .next {
+    padding: 14px;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -90,6 +97,9 @@ p,li {
   }
   .center-div {
     padding: 2vh 8vw;
+  }
+  .prev, .next {
+    padding: 16px;
   }
 }
 
