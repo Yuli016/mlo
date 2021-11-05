@@ -42,7 +42,7 @@ html,body {
 }
 
 .padding {
-  padding: 10px;
+  padding: 5px;
 }
 
 img {
@@ -56,19 +56,28 @@ img {
   margin-right: auto;
 }
 
+#center {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bolder;
+  color: #333333;
+}
+
 #center-text {
   text-align: center;
   text-transform: capitalize;
   font-weight: bolder;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2 {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
 }
 
 h1 {
   color: white;
+  font-size: 31px;
+  font-family: 'Playfair Display', serif;
 }
 
 p,li {
@@ -85,13 +94,16 @@ p,li {
     font-size: 20px;
   }
   .center-div {
-    padding: 2vh 8vw;
+    padding: 2vh 6vw;
   }
   .prev, .next {
     padding: 14px;
   }
-  h1,h2 {
-    font-size: 30px;
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 28px;
   }
 }
 
@@ -105,8 +117,11 @@ p,li {
   .prev, .next {
     padding: 16px;
   }
-  h1,h2 {
+  h1 {
     font-size: 48px;
+  }
+  h2 {
+    font-size: 45px;
   }
 }
 
