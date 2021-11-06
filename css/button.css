@@ -29,11 +29,12 @@
 .btn {
   position: relative;
   display: inline-block;
-  width: auto; height: auto;
+  width: auto;
+  height: auto;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin: 0px 25px 15px;
+  margin: 0px 15px 15px;
   min-width: 150px;
 }
 .btn span {
@@ -53,6 +54,7 @@
 .btn-3 {
   padding: 5px;
 }
+
 .btn-3 span {
   color: rgb(255, 255, 255);
   background-color: rgb(54, 56, 55);
@@ -94,51 +96,6 @@
   background-color: rgb(54, 56, 55)
 }
 
-
-/*Slideshow*/
-.mySlides3-1, .mySlides3-2, .mySlides3-3 {
-  display: none
-}
-
-img {
-  vertical-align: middle;
-}
-
 a#catalog {
-  color: #ff7f50;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 2000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  color: #333333;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  background-color: #ff7f50;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a grey background color */
-.prev:hover, .next:hover {
-  background-color: #333333;
   color: #ff7f50;
 }

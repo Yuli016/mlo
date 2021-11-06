@@ -30,6 +30,7 @@ html,body {
 
 #org {
   color: #ff7f50;
+  font-weight: 900;
 }
 
 .center-div {
@@ -158,4 +159,29 @@ hr {
   position: relative;
   text-align: center;
   background-color: rgb(54, 56, 55)
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+#footer-div {
+  background-color: rgb(54, 56, 55);
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#footer {
+  color: #ff7f50;
+  text-align: center;
+  position: relative;
 }
