@@ -4,7 +4,7 @@ html,body {
   height: 100vh;
   margin: 0;
   color: black;
-  background-image: radial-gradient(#471291 1.5px, transparent 1.5px), radial-gradient(#471291 1.5px, transparent 1.5px);
+  background-image: radial-gradient(#471291 1px, transparent 1px), radial-gradient(#471291 1px, transparent 1px);
   background-size: 34px 34px;
   background-position: 0 0, 17px 17px;
   background-color: #fbeeff;
@@ -12,8 +12,25 @@ html,body {
   border-right: 5px solid #471291;
 }
 
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-weight: 900;
+}
+
+img.yuli {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+  height: auto;
+}
+
 .navbar-default {
-  background-image: radial-gradient(#fbeeff 1.5px, transparent 1.5px), radial-gradient(#fbeeff 1.5px, transparent 1.5px);
+  background-image: radial-gradient(#fbeeff 1px, transparent 1px), radial-gradient(#fbeeff 1px, transparent 1px);
   background-size: 34px 34px;
   background-position: 0 0, 17px 17px;
   background-color: #471291;
@@ -49,6 +66,8 @@ html,body {
 
 .center-div {
   padding: 3vh 8vw;
+  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 img {
@@ -150,6 +169,7 @@ hr {
   border-width: 0;
   color: #471291;
   background-color: #471291;
+  border-radius: 35px 15px;
 }
 
 /* videos settings */
@@ -176,8 +196,14 @@ hr {
   padding: 1em;
   position: relative;
   text-align: center;
-  background-color: #c0b3ef;
   border-left: 10px solid #471291;
   border-bottom: 10px solid #471291;
   bottom: 0; left: 0;
+  border-radius: 35px 15px;
+
+  color: #fffb80;
+  background-image: radial-gradient(#fffb80 1px, transparent 1px), radial-gradient(#fffb80 1px, transparent 1px);
+  background-size: 34px 34px;
+  background-position: 0 0, 17px 17px;
+  background-color: #c0b3ef;
 }

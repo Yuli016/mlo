@@ -2,9 +2,10 @@
   display: none;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0; padding: 0;
+.pattern-diagonal-lines-sm {
+  color: #db395c;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 5px, transparent 0, transparent 50%)
 }
 
 :active, :hover, :focus {
@@ -58,6 +59,9 @@
 
 .btn-3 span {
   color: #fffb80;
+  background-image: radial-gradient(#fffb80 1px, transparent 1px), radial-gradient(#fffb80 1px, transparent 1px);
+  background-size: 34px 34px;
+  background-position: 0 0, 17px 17px;
   background-color: #db395c;
 }
 

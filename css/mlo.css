@@ -17,22 +17,13 @@ b {
   color: #db395c;
 }
 
-.offsideart {
-  padding: 0px 0px 35px 30px;
-  background-image: repeating-linear-gradient(45deg, #471291 0, #471291 5px, transparent 0, transparent 50%);
-  background-size: 30px 30px;
-  background-color: #fbeeff;
-  max-width: 2000px;
-  position: relative;
-  max-height: 1000px;
-}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 2000px;
   position: relative;
   margin: auto;
   max-height: 1000px;
+  transform: translate(10px, -10px);
 }
 
 /* Next & previous buttons */
