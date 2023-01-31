@@ -80,7 +80,8 @@ a#catalog {
 }
 
 a#catalog:hover {
-  background-color: #fffb80;
+  background-color: #c0b3ef;
+  color: white;
   font-weight: 900;
 }
 
@@ -206,4 +207,13 @@ hr {
   background-size: 34px 34px;
   background-position: 0 0, 17px 17px;
   background-color: #c0b3ef;
+}
+
+#purplebox {
+  background-color: rgba(233,226,166,0.8);
+  padding: 3em;
+  margin: 0 1em;
+  border-radius: 35px 15px;
+  border-right: 10px solid rgba(233,226,166,1);
+  border-top: 10px solid rgba(233,226,166,1);
 }
